@@ -1,0 +1,1 @@
+export const btnStyle = "px-5 py-2 rounded-full bg-black text-white border border-white/20 shadow-md hover:border-white hover:shadow-lg active:scale-95 transition-all duration-200";
