@@ -26,7 +26,7 @@ const Login = () => {
     console.log(passwordSend);
 
 
-    const response = await fetch("http://16.176.210.165/auth/login", {
+    const response = await fetch("https://16.176.210.165/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
