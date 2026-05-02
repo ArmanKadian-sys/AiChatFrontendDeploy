@@ -27,7 +27,7 @@ const Register = () => {
     const confirm_passwordSend = confirm_password.current.value;
 
 
-    const response = await fetch("http://16.176.210.165/auth/register", {
+    const response = await fetch("http://demo1.aichatarman.online/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
