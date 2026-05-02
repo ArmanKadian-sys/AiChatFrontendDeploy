@@ -25,7 +25,7 @@ const ChatPanel = () => {
 
   const handleDeleteChat = (deleteId) => {
     setLoading(true);
-    fetch(`http://demo1.aichatarman.online/api/deleteGemini/${deleteId}`, {
+    fetch(`https://demo1.aichatarman.online/api/deleteGemini/${deleteId}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
