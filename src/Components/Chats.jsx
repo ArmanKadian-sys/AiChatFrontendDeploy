@@ -30,7 +30,7 @@ const Chats = () => {
     setUserChat(content);
 
     if (id) {
-      fetch(`http://demo1.aichatarman.online/api/putGemini/${id}`, {
+      fetch(`https://demo1.aichatarman.online/api/putGemini/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -55,7 +55,7 @@ const Chats = () => {
 
 
     else {
-      fetch(`http://demo1.aichatarman.online/api/postGemini`, {
+      fetch(`https://demo1.aichatarman.online/api/postGemini`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

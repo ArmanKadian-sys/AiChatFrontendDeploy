@@ -6,7 +6,7 @@ export const fetchChat = createAsyncThunk(
   async () => {
     const token=localStorage.getItem("token");
     console.log("extracted token", token);
-    const res = await fetch("http://demo1.aichatarman.online/api/getGemini",{
+    const res = await fetch("https://demo1.aichatarman.online/api/getGemini",{
       method:"GET", 
       headers:
       {
