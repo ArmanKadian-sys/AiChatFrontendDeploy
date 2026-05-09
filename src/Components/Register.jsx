@@ -45,7 +45,7 @@ const Register = () => {
     const data = await response.json();
     changeLoading(false);
 
-    console.log("This is the response", response);
+    console.log("This is the data", data);
 
     if (response.status == 422) {
       changeErrors(data.message);
