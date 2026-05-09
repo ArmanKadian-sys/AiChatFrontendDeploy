@@ -89,7 +89,7 @@ const Register = () => {
               Submit
             </button>
           )}
-          <button onClick={"/auth/login"} className={btnStyle}>Login</button>
+          <button onClick={() => { navigate("/auth/login") }} className={btnStyle}>Login</button>
 
         </div>
       </div>

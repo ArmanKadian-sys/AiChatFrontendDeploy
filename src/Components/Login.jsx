@@ -87,7 +87,7 @@ const Login = () => {
                 Login
               </button>
             )}
-            <button onClick={"/auth/register"} className={btnStyle}>Register</button>
+            <button onClick={() => { navigate("/auth/register") }} className={btnStyle}>Register</button>
 
           </div>
         </div>
