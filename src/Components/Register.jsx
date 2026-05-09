@@ -48,7 +48,7 @@ const Register = () => {
     console.log("This is the data", data);
 
     if (response.status == 422) {
-      changeErrors(data.message);
+      changeErrors([data.message]);
       return;
     }
 
